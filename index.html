@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CalistiX-Rank</title>
+</head>
+
+<body>
+    <header>
+        <h1>CalistiX-Rank</h1>
+    </header>
+    <main>
+        <form>
+            <label for="tractions">Tractions :</label>
+            <input type="number" id="tractions" name="tractions" required min="0">
+            <label for="pompes">Pompes :</label>
+            <input type="number" id="pompes" name="pompes" required min="0">
+            <label for="dips">Dips :</label>
+            <input type="number" id="dips" name="dips" required min="0">
+            <label for="squats">Squats :</label>
+            <input type="number" id="squats" name="squats" required min="0">
+            <button type="submit">Calculer le rang</button>
+        </form>
+        <section>
+            <h2>Résultats</h2>
+            <p id="resultats"></p>
+        </section>
+        <section>
+            <h2>Historique</h2>
+            <ol id="historique"></ol>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
